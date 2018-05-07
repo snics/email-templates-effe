@@ -1,0 +1,75 @@
+{
+  "name": "email-templates-effe",
+  "version": "0.0.0",
+  "description":
+    "A replacement engine for the node module email-templates and should support Foundation for Emails.",
+  "author": {
+    "name": "Nico Swiatecki",
+    "url": "https://swiatecki.io"
+  },
+  "files": ["lib"],
+  "main": "lib/index.js",
+  "keywords": [""],
+  "dependencies": {
+    "glob": "^7.1.2",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "nsp": "^2.8.0",
+    "eslint": "^4.19.1",
+    "prettier": "^1.11.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-config-xo": "^0.20.1",
+    "jest": "^22.0.6"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "nsp check",
+    "pretest": "eslint .",
+    "precommit": "lint-staged",
+    "test:lint": "eslint .",
+    "test:jest": "jest",
+    "test": "npm run test:lint && npm run test:jest"
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
+  },
+  "eslintConfig": {
+    "extends": ["xo", "prettier"],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "singleQuote": true,
+          "printWidth": 90
+        }
+      ]
+    },
+    "plugins": ["prettier"]
+  },
+  "repository": "https://github.com/snics/email-templates-effe.git",
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/coverage/**"
+    ],
+    "coverageFormats": ["json", "html"],
+    "testRegex": "(test|spec)\\.js?$"
+  },
+  "license": "MIT"
+}
