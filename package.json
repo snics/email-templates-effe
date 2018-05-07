@@ -12,6 +12,7 @@
   "keywords": [""],
   "dependencies": {
     "glob": "^7.1.2",
+    "handlebars": "^4.0.11",
     "lodash": "^4.17.10"
   },
   "devDependencies": {
@@ -33,6 +34,7 @@
     "prepublishOnly": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
+    "prettier": "prettier --write lib/**/*.js",
     "test:lint": "eslint .",
     "test:jest": "jest",
     "test": "npm run test:lint && npm run test:jest"
