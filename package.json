@@ -67,6 +67,7 @@
     "collectCoverage": true,
     "collectCoverageFrom": [
       "**/*.{js,jsx}",
+      "!**/__tests__/**",
       "!**/node_modules/**",
       "!**/vendor/**",
       "!**/coverage/**"
