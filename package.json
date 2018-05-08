@@ -13,7 +13,8 @@
   "dependencies": {
     "glob": "^7.1.2",
     "handlebars": "^4.0.11",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.10",
+    "strip-bom": "^3.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
