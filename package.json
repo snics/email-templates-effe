@@ -17,7 +17,7 @@
     "precommit": "lint-staged",
     "prettier": "prettier --write lib/**/*.js",
     "test:lint": "eslint .",
-    "test:jest": "jest --config ./jest.config.js",
+    "test:jest": "jest -i --reporters --config ./jest.config.js",
     "test:watch": "jest --watch --config ./jest.config.js",
     "test": "npm run test:lint && npm run test:jest"
   },

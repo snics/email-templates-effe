@@ -10,6 +10,6 @@ module.exports = {
     '!**/vendor/**',
     '!**/coverage/**'
   ],
-  coverageFormats: ['json', 'html'],
+  coverageReporters: ['json', 'lcov', 'text', 'html'],
   testRegex: '(test|spec)\\.js?$'
 };
