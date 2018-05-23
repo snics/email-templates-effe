@@ -19,6 +19,7 @@ module.exports = {
         printWidth: 90
       }
     ],
+    'no-console': 'error',
     'node/no-unsupported-features': [
       'error'
     ]
