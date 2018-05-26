@@ -94,7 +94,7 @@ yarn run test:watch // Run unit test in watch mode
 
 ## Versioning
 
-We use [npm](https://docs.npmjs.com/cli/version) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [npm](https://docs.npmjs.com/cli/version) for versioning. For the versions available, see the [tags on this repository](https://github.com/snics/email-templates-effe/tags). 
 
 ## Authors
 
@@ -104,4 +104,4 @@ See also the list of [contributors](https://github.com/snics/email-templates-eff
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
