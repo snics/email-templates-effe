@@ -7,7 +7,7 @@
 [![devDependencies Status](https://david-dm.org/snics/email-templates-effe/dev-status.svg)](https://david-dm.org/snics/email-templates-effe?type=dev)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/snics/email-templates-effe/blob/master/LICENSE)
 
-> Email-templates-effe is a alternative engine for [email-templates](https://github.com/niftylettuce/email-templates) and add a support for Foundation for Emails
+> Email-templates-effe is an alternative engine for [email-templates](https://github.com/niftylettuce/email-templates) and add support for Foundation for Emails
 
 ### Dependencies
 - [Node.js](https://nodejs.org/en/) (requires Angular 6 or higher, tested with v6, v8, v9 and v10)
@@ -68,7 +68,7 @@ email
 
 ## Development
 
-For the development your need Node.js v6 or higher. If you have Node.js installed you can use the following commands to run the test
+For the development you need Node.js v6 or higher. If you have Node.js installed you can use the following commands to run the test
 
 Using npm:
 ```shell
@@ -83,10 +83,10 @@ yarn run test:lint // Run lint test in watch
 yarn run test:watch // Run unit test in watch mode
 ```
 ### Built With
-- [bluebird](https://www.npmjs.com/package/bluebird) - Good promise library
+- [bluebird](https://www.npmjs.com/package/bluebird) - Good and fast promise library
 - [cheerio](https://www.npmjs.com/package/cheerio) - It's like jQuery for Server
 - [front-matter](https://www.npmjs.com/package/front-matter) - Extract meta data from documents.
-- [glob](https://www.npmjs.com/package/glob) - Match files using the patterns the shell uses
+- [glob](https://www.npmjs.com/package/glob) - Match files using the patterns used by the shell
 - [handlebars](https://www.npmjs.com/package/handlebars) - Handlebars is a template engine
 - [inky](https://www.npmjs.com/package/inky) - Inky is a template engine for Foundation for Emails tags
 - [lodash](https://www.npmjs.com/package/lodash) - A helper library
