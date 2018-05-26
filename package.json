@@ -10,7 +10,13 @@
   "repository": "https://github.com/snics/email-templates-effe.git",
   "files": ["lib"],
   "main": "lib/index.js",
-  "keywords": [""],
+  "keywords": [
+    "email-template",
+    "foundation-for-emails",
+    "engine",
+    "email",
+    "alternative"
+  ],
   "scripts": {
     "prepublishOnly": "nsp check",
     "pretest": "eslint .",
