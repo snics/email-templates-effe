@@ -29,7 +29,7 @@ yarn add email-templates-effe
 ### Usage
 
 Once installed you need to import the module:
-```ecmascript 8
+```javascript
 const Email = require('email-templates');
 const path = require('path');
 const engine = require('email-templates-effe');
@@ -94,7 +94,7 @@ yarn run test:watch // Run unit test in watch mode
 
 ## Versioning
 
-We use [npm](https://docs.npmjs.com/cli/version) for versioning. For the versions available, see the [tags on this repository](https://github.com/snics/email-templates-effe/tags). 
+We use [Semantic Versioning](hhttp://semver.org/spec/v2.0.0.html) for versioning. For the versions available, see the [tags on this repository](https://github.com/snics/email-templates-effe/tags). 
 
 ## Authors
 
