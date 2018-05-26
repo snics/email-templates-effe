@@ -1,6 +1,6 @@
 {
   "name": "email-templates-effe",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description":
     "A replacement engine for the node module email-templates and should support Foundation for Emails.",
   "author": {
