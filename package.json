@@ -18,7 +18,6 @@
     "alternative"
   ],
   "scripts": {
-    "prepublishOnly": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
     "prettier": "prettier --write lib/**/*.js",
