@@ -7,7 +7,7 @@
 [![devDependencies Status](https://david-dm.org/snics/email-templates-effe/dev-status.svg)](https://david-dm.org/snics/email-templates-effe?type=dev)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/snics/email-templates-effe/blob/master/LICENSE)
 
-> Email-templates-effe is an alternative engine for [email-templates](https://github.com/niftylettuce/email-templates) and add support for Foundation for Emails
+> Email-templates-effe is an alternative engine for [email-templates](https://github.com/niftylettuce/email-templates) and add support for [Foundation for Emails](https://foundation.zurb.com/emails.html) :email::mailbox::rocket:
 
 ### Dependencies
 - [Node.js](https://nodejs.org/en/) (requires Angular 6 or higher, tested with v6, v8, v9 and v10)
@@ -94,7 +94,7 @@ yarn run test:watch // Run unit test in watch mode
 
 ## Versioning
 
-We use [Semantic Versioning](hhttp://semver.org/spec/v2.0.0.html) for versioning. For the versions available, see the [tags on this repository](https://github.com/snics/email-templates-effe/tags). 
+We use [SemVer](http://semver.org/spec/v2.0.0.html) for versioning. For the versions available, see the [tags on this repository](https://github.com/snics/email-templates-effe/tags). 
 
 ## Authors
 
