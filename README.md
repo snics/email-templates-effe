@@ -28,7 +28,7 @@ yarn add email-templates-effe
 
 ### Usage
 
-Once installed you need to import the module:
+Once installed you need to import the module and set up the root directory for handlebars:
 ```javascript
 const Email = require('email-templates');
 const path = require('path');
@@ -41,9 +41,7 @@ const email = new Email({
     options: {
       extension: 'hbs',
       engineSource: engine({
-        layouts: path.join(__dirname, 'handlebars/layouts'),
-        partials: path.join(__dirname, 'handlebars/partials'),
-        helpers: path.join(__dirname, 'handlebars/helpers')
+        root: path.join(__dirname, 'handlebars')
       })
     }
   }
@@ -65,6 +63,35 @@ email
   });
   .catch(console.error);
 ```
+Or you can define all handlebars directory manually with `layouts`, `partials` and `helpers`
+```javascript
+// ...Other Code
+
+// Setup
+const email = new Email({
+  views: {
+    root: path.join(__dirname, 'root/directory/to/all/email/files'),
+    options: {
+      extension: 'hbs',
+      engineSource: engine({
+        layouts: path.join(__dirname, 'handlebars/layouts'),
+        partials: path.join(__dirname, 'handlebars/partials'),
+        helpers: path.join(__dirname, 'handlebars/helpers')
+      })
+    }
+  }
+});
+
+// ...Other Code
+```
+
+## Configuration
+| configuration option |  type  | default | description                                                                                                      |
+|:---------------------|:------:|:-------:|:-----------------------------------------------------------------------------------------------------------------|
+| root                 | string |    -    | With `root` you can define root directory for handlebars with `layouts`, `partials` and `partials` as suborders. |
+| layouts              | string |    -    | With `layouts` you can define an exact handlebars layouts path                                                   |
+| partials             | string |    -    | With `partials` you can define an exact handlebars partials path                                                 |
+| partials             | string |    -    | With `partials` you can define an exact handlebars partials path                                                 |
 
 ## Development
 
