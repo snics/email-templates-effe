@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [Version 1.1.0](https://github.com/snics/email-templates-effe/releases/tag/v1.1.0) - 2018-05-28
+
+### Added
+* [[`ace2e0560c`](https://github.com/snics/email-templates-effe/commit/ace2e0560c)] - Add setting option for hbs root directory (Nico Swiatecki) 
+
+### Removed
+* [[`7d4b729240`](https://github.com/snics/email-templates-effe/commit/7d4b729240)] - Remove prepublishOnly script task (Nico Swiatecki)
+
+### Fixed
+* [[`c4b3eb2c72`](https://github.com/snics/email-templates-effe/commit/c4b3eb2c72)] - Fixed Fix syntax error and add emojis :wink: (Nico Swiatecki) 
+* [[`94120a7e64`](https://github.com/snics/email-templates-effe/commit/94120a7e64)] - Fixed spelling and grammar mistakes (Nico Swiatecki)   
+
 
 ## [Version 1.0.0](https://github.com/snics/email-templates-effe/releases/tag/v1.0.0) - 2018-05-26
 
