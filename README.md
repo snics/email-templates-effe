@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/snics/email-templates-effe/badge.svg?branch=master)](https://coveralls.io/github/snics/email-templates-effe?branch=master)
 [![dependencies Status](https://david-dm.org/snics/email-templates-effe/status.svg)](https://david-dm.org/snics/email-templates-effe)
 [![devDependencies Status](https://david-dm.org/snics/email-templates-effe/dev-status.svg)](https://david-dm.org/snics/email-templates-effe?type=dev)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/snics/email-templates-effe/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/snics/email-templates-effe/blob/master/LICENSE) [![Greenkeeper badge](https://badges.greenkeeper.io/snics/email-templates-effe.svg)](https://greenkeeper.io/)
 
 > Email-templates-effe is an alternative engine for [email-templates](https://github.com/niftylettuce/email-templates) and add support for [Foundation for Emails](https://foundation.zurb.com/emails.html) :email::mailbox::rocket:
 
